@@ -1,30 +1,31 @@
 body{
 	background-color:#eee;
 }
-
 h1{
 	text-align:center;
 }
-
 .container{
 	width:960px; 
 	height:450px; 
 	margin:60px auto; 
 	position:relative;
 }
-
 .container img{
 	padding:10px 10px 15px; 
 	background:white; 
 	border:1px solid #ddd; 
 	box-shadow:2px 2px 3px rgba(50, 50, 50, 0.4);
+	/*
+	兼容器的写法：
+	-webkit-是Chrome和Safari浏览器的的前缀
+	-moz-是Firefox浏览器的前缀
+	 */
 	-webkit-transition:all 0.5s ease-in;
 	-moz-transition:all 0.5s ease-in;
 	transition:all 0.5s ease-in; 
 	position:absolute; 
 	z-index:1;
 }
-
 .container img:hover{
 	box-shadow:15px 15px 20px rgba(50, 50, 50, 0.4); 
 	-webkit-transform:rotate(0deg) scale(1.20); 
@@ -66,7 +67,6 @@ h1{
 	-moz-transform: rotate(-10deg); 
 	transform: rotate(-10deg);
 }
-
 .pic5
 {
 	bottom: 0; 
@@ -75,7 +75,6 @@ h1{
 	-moz-transform: rotate(-10deg); 
 	transform: rotate(-10deg);
 }
-
 .pic6
 {
 	top: 0; 
@@ -84,7 +83,6 @@ h1{
 	-moz-transform: rotate(10deg); 
 	transform: rotate(10deg);
 }
-
 .pic7
 {
 	top: 0; 
