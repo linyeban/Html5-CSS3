@@ -1,0 +1,21 @@
+ul,li{margin:0;padding:0;}
+
+.box{width:980px;background:#00ffff;margin:50px auto;}
+.box li{width:315px;height:345px;list-style:none;position:relative;overflow:hidden;cursor:pointer;float:left;margin:5px;}
+
+
+.boxbg{width:315px;height:345px;background:#000;position:absolute;top:0;left:0;opacity:0;/* 默认让背景透明 */
+    transition:all 300ms ease;/* 兼容IE9+ 浏览器 */
+    -webkit-transition:all 300ms ease;/* 兼容Google Chrome 浏览器 */
+    -o-transition:all 300ms ease;/* 兼容火狐浏览器 */
+}
+
+.text{width:315px;height:55px;line-height:55px;background:#000;text-align:center;position:absolute;top:145px;left:-315px;
+    transition:all 300ms ease;/* 兼容IE9+ 浏览器 */
+    -webkit-transition:all 300ms ease;/* 兼容Google Chrome 浏览器 */
+    -o-transition:all 300ms ease;/* 兼容火狐浏览器 */
+}
+.text a{color:#fff;text-decoration:none;font-size:26px;;}
+.text a:hover{color:#006600;}
+.box li:hover .boxbg{opacity:0.3;}
+.box li:hover .text{left:0;}
