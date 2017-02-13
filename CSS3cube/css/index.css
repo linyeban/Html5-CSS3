@@ -1,0 +1,142 @@
+*{ font-size:200px;}
+/*大元素*/
+.wrap {
+    position:relative;
+    width:400px; height:400px;
+    margin:100px auto;
+    perspective: 800px;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -ms-perspective: 800px;
+    -o-perspective: 800px;
+    perspective-origin: 50% 100px;
+    -webkit-perspective-origin: 50% 100px;
+    -moz-perspective-origin: 50% 100px;
+    -ms-perspective-origin: 50% 100px;
+    -o-perspective-origin: 50% 100px;
+}
+/*所有div容器*/
+.cube {
+    position: relative;
+    width: 200px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+
+}
+/*盒子各面共用的CSS*/
+.cube div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity:0.6
+}
+/*盒子各面的位置*/
+.back {
+    /*translateZ:定义近小远大*/
+    transform: translateZ(-100px) rotateY(180deg);
+    -webkit-transform: translateZ(-100px) rotateY(180deg);
+    -moz-transform: translateZ(-100px) rotateY(180deg);
+    -ms-transform: translateZ(-100px) rotateY(180deg);
+    -o-transform: translateZ(-100px) rotateY(180deg);
+    background:url(../img/1.jpg);
+    background-size:200px;
+}
+.right {
+    transform: rotateY(-270deg) translateX(100px);
+    -webkit-transform: rotateY(-270deg) translateX(100px);
+    -moz-transform: rotateY(-270deg) translateX(100px);
+    -ms-transform: rotateY(-270deg) translateX(100px);
+    -o-transform: rotateY(-270deg) translateX(100px);
+    transform-origin: top right;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -ms-transform-origin: top right;
+    -o-transform-origin: top right;
+    background:url(../img/2.jpg);
+    background-size:200px;
+}
+.left {
+    transform: rotateY(270deg) translateX(-100px);
+    -webkit-transform: rotateY(270deg) translateX(-100px);
+    -moz-transform: rotateY(270deg) translateX(-100px);
+    -ms-transform: rotateY(270deg) translateX(-100px);
+    -o-transform: rotateY(270deg) translateX(-100px);
+    transform-origin:left center;
+    -webkit-transform-origin:left center;
+    -moz-transform-origin:left center;
+    -ms-transform-origin:left center;
+    -o-transform-origin: left center;
+    background:url(../img/3.jpg);
+    background-size:200px;
+}
+.top {
+    transform: rotateX(-90deg) translateY(-100px);
+    -webkit-transform: rotateX(-90deg) translateY(-100px);
+    -moz-transform: rotateX(-90deg) translateY(-100px);
+    -ms-transform: rotateX(-90deg) translateY(-100px);
+    -o-transform: rotateX(-90deg) translateY(-100px);
+    transform-origin: top center;
+    -webkit-transform-origin: top center;
+    -moz-transform-origin: top center;
+    -ms-transform-origin: top center;
+    -o-transform-origin: top center;
+    background:url(../img/4.jpg);
+    background-size:200px;
+}
+.bottom {
+    transform: rotateX(90deg) translateY(100px);
+    -webkit-transform: rotateX(90deg) translateY(100px);
+    -moz-transform: rotateX(90deg) translateY(100px);
+    -ms-transform: rotateX(90deg) translateY(100px);
+    -o-transform: rotateX(90deg) translateY(100px);
+    transform-origin: bottom center;
+    -webkit-transform-origin: bottom center;
+    -moz-transform-origin: bottom center;
+    -ms-transform-origin: bottom center;
+    -o-transform-origin: bottom center;
+    background:url(../img/5.jpg);
+    background-size:200px;
+}
+.front {
+    transform: translateZ(100px);
+    -webkit-transform: translateZ(100px);
+    -moz-transform: translateZ(100px);
+    -ms-transform: translateZ(100px);
+    -o-transform: translateZ(100px);
+    background:url(../img/6.png);
+    background-size:300px;
+}
+/*
+动起来:@keyframes创建动画，逐步从一个样式过度到另一个样式
+指定的变化时使用%，或关键字from和to，这和0%和100%一样
+*/
+@keyframes spin {
+    from { transform: rotateY(0); }
+    to { transform: rotateY(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotateY(0); }
+    to { -webkit-transform: rotateY(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotateY(0); }
+    to { -moz-transform: rotateY(360deg); }
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotateY(0); }
+    to { -ms-transform: rotateY(360deg); }
+}
+@-o-keyframes spin {
+    from { -o-transform: rotateY(0); }
+    to { -o-transform: rotateY(360deg); }
+}
+.cube {
+    animation: spin 5s infinite linear;
+    -webkit-animation: spin 5s infinite linear;
+    -moz-animation: spin 5s infinite linear;
+    -ms-animation: spin 5s infinite linear;
+    -o-animation: spin 5s infinite linear;
+}
