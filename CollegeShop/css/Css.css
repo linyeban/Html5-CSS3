@@ -1,0 +1,248 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0 auto;
+	padding-top: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.mycontainer-fluid {
+	width: auto;
+}
+
+.navbar-default {
+	width: 1170px;
+	background-color: #390c20;
+	border-color: #390c20;
+}
+.navbar{
+	margin:0px;
+}
+
+
+.nav-tabs {
+	border-bottom: 0px solid #ddd;
+}
+
+.nav li {
+	padding-top: 3px;
+	padding-left: 5px;
+}
+
+.mycontainer {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #390c20;
+	border-color: #fff;
+	width: auto;
+	height: auto;
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+.navbar-nav>li>a {
+padding-top: 10px;
+padding-bottom: 0px;
+}
+.navbar-left
+{
+height: 10px;
+padding-top: 0px;
+}
+.navbar-brand {
+height: 25px;
+padding-top: 0px;
+}
+.navbar {
+min-height: 10px;
+}
+
+.navbar-nav {
+min-height: 10px;
+}
+.navbar-toggle {
+margin-top: 4px;
+margin-bottom: 4px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.nav {
+	margin-left: 15px;
+	margin-bottom: 18px;
+	list-style: none;
+}
+.carousel-indicators .active{
+	background-color: #390c20;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 250px;
+    bottom: 100px;
+    left: 0;
+    width: 5%;
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    filter: alpha(opacity = 50);
+    opacity: .5;
+}
+.carousel-control.left {
+    /* background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%); */
+    background-image: none;
+  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.right {
+    /* background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%); */
+    background-image: none;
+  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.front-page-header {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left:50px;
+	text-align: left;
+	color: #249136;
+}
+
+.caret-right {
+	border-left: 4px solid black;
+	border-right: 0;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+.headerrow{margin-top:30px;}
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+
+.thumbnails {
+	margin-left: 50px;
+	list-style: none;
+}
+
+.span4 {
+	width: 300px;
+	margin-left: 25px;
+}
+.span4-f {
+	width: 295px;
+}
+.span5-f {
+	width: 235px;
+
+}
+.span5 {
+	width: 235px;
+	margin-left: 25px;
+}
+
+table {
+	max-width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 auto;
+}
+
+.info {
+	text-align: center;
+}
+
+.footer .footer-block.not-last {
+	border-right: 1px solid #777777;
+}
+
+.footer .footer-block {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 82px;
+	width: 250px;
+}
+
+.footer #icp {
+	margin-top: 5px;
+	padding-top: 15px;
+	font-size: 9px;
+	height: 20px;
+	colspan: 3;
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+#headerMenu {
+	width: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.menu {
+	line-height: 18px;
+	*line-height: 32px;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu a {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	text-align: center;
+	padding: 8px 0px 6px 0px;
+	*padding: 0;
+	float: left;
+	color: #fff;
+	width: 100px;
+	text-decoration: none;
+}
+.myrow{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+li{
+	margin: 5px;
+	padding-right: 5px;
+
+}
+a{
+	text-decoration: none;
+	color: #390c20;
+}

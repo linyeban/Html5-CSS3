@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+table {
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-variant: normal;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+}

@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+.row{
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+}
+td{
+	text-align: center;
+}

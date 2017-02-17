@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>个人注册</title>
+<link type="text/css" rel="stylesheet" href="css/saved_resource">
+<link type="text/css" rel="stylesheet" href="css/saved_resource(2)" source="widget">
+<script language="javascript">
+//
+  function chknc(nc)
+  {
+    window.open("chkusernc.php?nc="+nc,"newframe","width=200,height=10,left=500,top=200,menubar=no,toolbar=no,location=no,scrollbars=no,location=no");
+  }
+</script>
+<script language="javascript">
+  function chkinput(form)
+  {
+    if(form.username.value=="")
+	{
+	 alert("请输入用户名!");
+	 form.usernc.select();
+	 return(false);
+	}
+   // alert("aaaaaa");
+	if(form.p1.value=="")
+	{
+	 alert("请输入注册密码!");
+	 form.p1.select();
+	 return(false);
+	}
+    if(form.p2.value=="")
+	{
+	 alert("请输入确认密码!");
+	 form.p2.select();
+	 return(false);
+	 }	
+	if(form.p1.value.length<6)
+	 {
+	 alert("注册密码长度应大于6!");
+	 form.p1.select();
+	 return(false);
+	 }	
+	if(form.p1.value!=form.p2.value)
+	 {
+	 alert("两次密码输入不一致");
+	 form.p1.select();
+	 return(false);
+	 }
+   if(form.email.value=="")
+	{
+	 alert("请输入电子邮箱地址!");
+	 form.email.select();
+	 return(false);
+	 }
+	if(form.email.value.indexOf('@')<0)
+	{
+	 alert("请输入正确的电子邮箱地址!");
+	 form.email.select();
+	 return(false);
+	 }
+   if(form.tel.value=="")
+	{
+	 alert("请输入联系电话!");
+	 form.tel.select();
+	 return(false);
+	 }
+   return(true);
+  }
+</script>
+</head>
+<div class="header">
+		<div class="logo-con w clearfix">
+			<a href=image/logo.png class="logo"> </a>
+			<div class="logo-title">欢 迎 注 册</div>
+			<div class="have-account">
+				已有账号 <a href="login.php">请登录</a>
+			</div>
+		</div>
+
+	</div>
+	<div class="container w">
+		<div class="main clearfix">
+			<div class="reg-form fl">
+			<!-- 表单  -->
+				<form name="form1" method="post" action="savereg.php" onSubmit="return chkinput(this)">
+					<input style="display: none" name="hack"> <input
+						type="password" style="display: none" name="hack1">
+					<div class="form-item form-item-account" id="form-item-account">
+						<label>用 户 名</label>
+						<input type="text" id="username" name="username" class="field" maxlength="20" placeholder="您的账户名 " >
+						<i class="i-status"></i>
+					</div>
+					<div class="input-tip">
+						<span></span>
+					</div>
+					
+					<div class="form-item" style="z-index: 12;">
+						<label>设 置 密 码</label>
+						<input type="password" name="p1" id="p1" class="field"
+							maxlength="20" placeholder="建议至少使用两种字符组合 ">
+						<i class="i-status"></i>
+					</div>
+					<div class="input-tip">
+						<span></span>
+					</div>
+					<div class="form-item" style="z-index: 12;">
+						<label>确 认 密 码</label>
+						<input type="password" name="p2" id="p2"
+							class="field" placeholder="请再次输入密码 " maxlength="20">	
+					</div>
+					<div class="input-tip">
+						<span></span>
+					</div>
+					<div class="form-item form-item-account" id="form-item-account">
+						<label>QQ号码</label>
+						<input type="text" id="qq" name="qq" class="field"
+							autocomplete="off" maxlength="20" placeholder=" 您的QQ号码">
+						<i class="i-status"></i>
+					</div>
+					<div class="input-tip">
+						<span></span>
+					</div>
+					<div class="form-item form-item-account" id="form-item-account">
+							<label>邮 箱 </label>
+							<input type="text" name="email" id="email"minlength="4"
+								class="field ignore" autocomplete="off" placeholder="建议使用常用邮箱 ">
+							<i class="i-status"></i>
+							<ul class="suggest-container email-suggest">
+								<li class=""><div class="value">@qq.com</div></li>
+								<li class=""><div class="value">@163.com</div></li>
+							</ul>
+						</div>
+						<div class="input-tip">
+							<span></span>
+						</div>
+					<div class="form-item form-item-authcode">
+						<label>联系电话：</label>
+						<input type="text" autocomplete="off" name="tel"
+							id="tel" maxlength="11" class="field form-authcode"placeholder="建议使用常用电话 ">
+					</div>
+					<div class="input-tip">
+						<span></span>
+					</div>
+					<div>
+						<button type="submit" class="btn-register">立即注册</button>
+					</div>
+				</form>
+</body>
+</html>

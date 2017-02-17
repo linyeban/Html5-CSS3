@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.font
+{
+	color: #ffffff;
+	background-color: #390c20;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.col-md-10 {
+    float: left;
+}
+
+@media (min-width: 768px)
+.col-sm-10 {
+    width: 83.33333333%;
+}

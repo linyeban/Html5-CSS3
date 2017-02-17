@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>usercenter</title>
+<style type="text/css">
+a:hover {
+	background-color: #fff000;
+	border-radius: 10px;
+	color: red;
+} /* 鼠标指针移动到链接上 */
+.usercenter {
+	background-color: #390c20;
+	border-radius: 10px;
+	color: white !important;
+	margin-bottom: 20px;
+	width: 120px;
+}
+
+.usercenter a {
+	display: inline-block;
+	width: 100px;
+	text-decoration: none;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #ffffff !important;
+	font-weight: bold;
+}
+
+.usercenter-row {
+	margin-top: 150px;
+}
+</style>
+<script type="text/javascript">
+	function test(URL) {
+		var frameid = parent.document.getElementById("main");
+		//alert("aaa");
+		frameid.src = URL;
+	}
+</script>
+</head>
+<body>
+	<div class="usercenter-row">
+		<h2>用户中心</h2>
+	</div>
+	<div class="usercenter">
+		<a href="#" onclick="test('gouwu1.php')">购物车</a><br />
+	</div>
+	<div class="usercenter">
+		<a href="#" onclick="test('changeuserpwd.php')">修改密码</a><br />
+	</div>
+	<div class="usercenter">
+		<a href="#" onclick="test('userinfo.php')">个人信息</a><br />
+	</div>
+	<div class="usercenter">
+		<a href="#" onclick="test('userleaveword.php')">用户留言</a><br />
+	</div>
+</body>
+</html>

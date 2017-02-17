@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+body {
+    margin: 0 auto;
+    padding-top: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+    background-color: #ffffff;
+}
+a {
+    color: #390c20;
+    text-decoration: none;
+}
+#product-categories-container {
+	min-height:400px;
+	margin-top: 80px;
+}
+#categories-container {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+#f-left{
+	 top: 60px;
+    position: fixed;
+}
+.ui-accordion .ui-accordion-header {
+    margin: 7px 0 0 0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    background: #390c20;
+    font-weight: normal;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #aaaaaa;
+    background: #9cc71a;
+    font-weight: normal;
+    color: #212121;
+    border-radius: 8px;
+}
+.ui-widget-content {
+    border: none; 
+    background: #ffffff;
+    color: #222222;
+}
+.product-category-product-set-item {
+    display: table;
+     margin-bottom: 20px;
+     margin-left: 40px;
+}
+.product-category-product-set-item 
+.product-set-image-container {
+    padding-right: 40px;
+    width: 200px;
+    float: none;
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+@media (min-width: 768px)
+.product-set-image-container {
+    display: table-cell;
+}
+.col-md-10{
+    float: left;
+}
+.product-category-product-set-item .product-set-item-info-container {
+    position: relative;
+    height: 100%;
+    float: none;
+    vertical-align: top;
+    color: #aeaeae;
+    border-bottom: 1px solid #aeaeae;
+}
+.product-set-item-info-container {
+    display: table-cell;
+    margin-left: 50px;
+    width: 100%;
+}
+.product-set-details-link
+{
+	margin-bottom: 20px;
+}
+.product-set-item-info-container .shopping-cart-icon-container {
+    display: inline-block;
+    width: 130px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 18px;
+    color: #888888;
+}
+.product-set-header {
+    font-size: 20px;
+    color: #3e001f;
+}
+.product-set-details-link a {
+    font-weight: bold;
+    color: #3e001f;
+}
+.product-set-image {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}

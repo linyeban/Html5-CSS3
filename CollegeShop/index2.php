@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>校园购物网站</title>
+<script src="external/jquery-2.2.3.min.js"></script>
+<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/Css.css" type="text/css" />
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<style type="text/css">
+a{
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+<div class="mycontainer navbar-fixed-top" style="height:50px;">
+	<nav class="navbar navbar-default" role="navigation" style="
+    height: 45px;">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html"><img src="image/logo.png"></a>
+		</div>
+		<div>
+			<!--向左对齐-->
+			<ul class="nav navbar-nav navbar-left">
+			<li><a href="index2.php">首 页 </a></li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown"> 商品分类 <b class="caret"></b>
+				</a>
+					<ul class="dropdown-menu">
+						<li><a href="default-gitf-box.php">礼盒</a></li>
+						<li class="divider"></li>
+						<li><a href="default-seasonal-specials.php">季节精选</a></li>
+						<li class="divider"></li>
+						<li><a href="default-cakes.php">蛋糕</a></li>
+						<li class="divider"></li>
+						<li><a href="default-pies.php">派</a></li>
+						<li class="divider"></li>
+						<li><a href="#">礼品卡</a></li>
+					</ul></li>
+					<li><a href="showgonggao.php">公告 </a></li>
+					<li><a href="dinggouxuzhi.php">订购须知 </a></li>
+					
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown"> 关于 <b class="caret"></b>
+				</a>
+					<ul class="dropdown-menu">
+						<li><a href="huiyuan.php">会员</a></li>
+						<li class="divider"></li>
+						<li><a href="we.php">我们</a></li>
+					</ul></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				
+				<li class=" pull-right"><a href="gouwu1.php"> <span
+						class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+						购物车
+				</a></li>
+				<?php session_start();
+				?>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown">欢迎您， <?php echo $_SESSION['username']; ?><b class="caret"></b>
+				</a>
+					<ul class="dropdown-menu">
+						<li><a href="lookdd.php">我的订单</a></li>
+						<li class="divider"></li>
+						<li><a href="defaultcenter.php">用户中心</a></li>
+						<li class="divider"></li>
+					    <li><a href="logout.php">退出</a></li>
+						
+					</ul></li>
+			
+			</ul>
+			<!-- <form class="navbar-form navbar-right" role="search">
+				<button type="submit" class="btn btn-default">向右对齐-提交按钮</button>
+			</form>
+			<p class="navbar-text navbar-right">向右对齐-文本</p> -->
+		</div>
+	</nav>
+</div>
+	<!-- 轮播图 -->
+	<!-- Example row of columns -->
+	<!-- headerrow用于拉开距离的 -->>
+	<div class="headerrow"></div>
+	
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel"
+		data-interval="2000">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<!-- 轮播（Carousel）项目 -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="image/1.jpg" alt="First slide">
+			</div>
+			<div class="item">
+				<img src="image/2.jpg" alt="Second slide">
+			</div>
+			<div class="item">
+				<img src="image/3.jpg" alt="Third slide">
+			</div>
+		</div>
+		<!-- Carousel nav -->
+		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	</div>
+	<script>
+	　$(document).ready(function() {
+	       // do stuff when DOM is ready
+	       //alert("aa");
+	       });
+</script>
+
+	<!-- /container -->
+
+	<!-- 轮播图 -->
+	<!-- 产品列表 -->
+	<div class="marketing center">
+		<div class="row">
+			<div class="front-page-header">
+				<span class="caret caret-right"></span> <b>产品列表</b>
+			</div>
+		</div>
+		<div class="myrow">
+			<div class="row">
+				<div class="col-xs-2  thumbnail span5-f ">
+					<img alt="300x200" src="image/4.jpg" />
+					<div class="caption">
+						<p><a href="default-gitf-box.php">Gift Box / 礼盒</a></p>
+					</div>
+				</div>
+				<div class="col-xs-2 thumbnail span5">
+					<img alt="300x200" src="image/seasonal-specials.jpg" />
+					<div class="caption">
+						<p><a href="default-seasonal-specials.php#showu2">Seasonal Specials / 季节精选</a></p>
+					</div>
+				</div>
+				<div class="col-xs-2  thumbnail span5">
+					<img alt="300x200" src="image/cupcakes.jpg" />
+					<div class="caption">
+						<p><a href="default-cakes.php#show">Cupcakes / 蛋糕</a></p>
+					</div>
+				</div>
+				<div class="col-xs-2 thumbnail span5">
+					<img alt="300x200" src="image/pies.jpg" />
+					<div class="caption">
+						<p><a href="default-pies.php#show">Pies / 派</a></p>
+					</div>
+				</div>
+				<div class="col-xs-2 thumbnail span5">
+					<img alt="300x200" src="image/card.jpg" />
+					<div class="caption">
+						<p>礼品卡</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- 新品推荐 -->
+	<div class="marketing center">
+		<div class="row">
+			<div class="front-page-header">
+				<span class="caret caret-right"></span> <b><a href="default-cakes.php#show">新品推荐</a></b>
+			</div>
+		</div>
+		<div class="myrow">
+			<div class="row">
+				<div class="col-xs-2  thumbnail span4-f">
+					<img alt="200x200" src="image/mini-cupcake-set.jpg" width="275px" />
+					<div class="caption">
+						<p><a href="default-gitf-box.php">迷你纸杯礼盒 礼盒 ￥180</a></p>
+					</div>
+				</div>
+				<div class="col-xs-2 thumbnail span4">
+					<img alt="200x200" src="image/red-velvet-waltz-cake.jpg"
+						width="275px" />
+					<div class="caption">
+						<p><a href="default-cakes.php#show">红丝绒圆舞曲蛋糕 6吋 ￥249</a></p>
+					</div>
+				</div>
+				<div class="col-xs-2  thumbnail span4">
+					<img alt="200x200" src="image/durian-cheese-mousse-cake.jpg"
+						width="275px" />
+					<div class="caption">
+						<p><a href="default-cakes.php#show">榴莲冻乳酪慕斯蛋糕 6吋 ￥249</a></p>
+					</div>
+				</div>
+				<div class="col-xs-2 thumbnail span4">
+					<img alt="200x200" src="image/passionfruit-cupcake.jpg"
+						width="275px" />
+					<div class="caption">
+						<p><a href="default-cakes.php#show">百香果纸杯蛋糕 中号 ￥25</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--foot  -->
+	<div class="footer text-muted">
+		<div class="mycontainer">
+			<div class="col-md-12 col-sm-12 hidden-xs">
+				<table>
+					<tbody>
+						<tr>
+							<td class="footer-block not-last"><img alt="Ui0813 66"
+								class="telephone-image-size" src="image/UI0813.png" />
+								<div class="info">订购邮箱</div>
+								<div class="info">order@pantrysbest.com</div>
+								<div class="info">广东省广州市白云区</div></td>
+							<td class="footer-block not-last">
+								<div class="info">官方微信|官方QQ</div>
+								<div class="info">
+									<img alt="Weixin" src="image/weixin.jpg" width="55px" /> <img
+										alt="Weixin" src="image/weixin.jpg" width="55px" />
+								</div>
+							</td>
+							<td class="footer-block"><img alt="Brand icons"
+								id="brand-icons" src="image/brand-icons.png" width="250px" /></td>
+						</tr>
+						<tr>
+							<td id="icp">Copyright 2016仲恺农业工程学院计算科学学院，201321314337
+							<td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
