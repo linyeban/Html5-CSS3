@@ -1,18 +1,283 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="243a7e2d-fc9c-455e-86b6-5a441e4cdbc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CSS3D.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="243a7e2d-fc9c-455e-86b6-5a441e4cdbc4" name="Default" comment="3D旋转">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CSS3clock/.idea/jsLinters/jscs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/test.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/test.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/.idea/CollegeShop.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/.settings/org.eclipse.core.runtime.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/addgouwuche.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/addgonggao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/addgoods.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/admingonggao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/changegoods.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/chkadmin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/css/addgoods.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/css/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/css/editgoods.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/css/font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/css/icon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/deletedd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/deletefxhw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/deletegonggao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/deleteleaveword.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/deletepingjia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/deleteuser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/editgoods.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/editgoods_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/editleaveword.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/editpinglun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/edituser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/finddd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/arrow_down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/arrow_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/button_drop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/button_select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_08.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/default_10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/panel_header_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/point1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/point2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/image/point3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/js/addgoods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/js/orderdd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/left.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/lookdd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/lookleaveword.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/lookpinglun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/lookuserinfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/orderdd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/savechangegoods.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/savenewgonggao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/savenewgoods.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/saveorder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/showdd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/admin/upimages/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/bootstrap-3.3.5-dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/changeuser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/changeuserpwd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/chkuser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/AccordionTab0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/AccordionTab2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/Css.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/gouwuche.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/icon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/jquery.easyui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/reg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/saved_resource" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/saved_resource(2)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/shangpin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/css/shangpin_old.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/data/collegeshop.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/data/conn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/default-cakes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/default-gitf-box.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/default-pies.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/default-seasonal-specials.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/defaultcenter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/dinggouxuzhi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/font-awesome-4.5.0/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/jquery-2.2.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/jquery.easyui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/lib/chili-1.7.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/lib/jquery.accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/lib/jquery.dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/lib/jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/external/lib/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/finddd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/foot.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/gouwu1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/gouwu1_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/gouwu2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/gouwu2_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/head.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/head2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/huiyuan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/AccordionTab0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/AccordionTab2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/UI0813.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/arrow_down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/arrow_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/banner-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/brand-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/cakes/black-forest-cake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/cakes/mango-cloud-cake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/cakes/passion-fruit-cake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/cakes/passion-fruit-chocolate-cupcake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/cakes/passionfruit-cupcake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/card.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/code/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/cupcakes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/dinggouxuzhi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/durian-cheese-mousse-cake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/gift-box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/gitf-box/mini-cupcake-set.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/headbg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/in_gwc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/index_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/line1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/mini-cupcake-set.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/ninhao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/panel_header_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/passionfruit-cupcake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/pies.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/pies/apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/pies/banana-cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/pies/razzleberry-cheese.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/red-velvet-waltz-cake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/seasonal-specials.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/seasonal-specials/durian-cheese-mousse-cake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/showgonggao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/weibo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/weixin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/image/welcome.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/index2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/js/shangpin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/left.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/lookdd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/reg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/removegwc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/savechangeuserpwd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/savedd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/savereg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/saveuserleaveword.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/shangpin-cakes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/shangpin-gitf-box.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/shangpin-pies.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/shangpin-seasonal-specials.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/shangpinData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/shangpin_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/showdd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/showgg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/showgonggao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/showgonggao_old.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/usercentermain.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/userinfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/userleaveword.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/we.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CollegeShop/yzrand.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CSS3抽屉式/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../CSS3抽屉式/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../html5clock/.idea/modules.xml" afterPath="$PROJECT_DIR$/../html5clock/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../html5clock/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../html5clock/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +298,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+            <state relative-caret-position="19">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -80,9 +345,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
     <push-targets>
       <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="master" />
     </push-targets>
@@ -105,7 +367,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -150,7 +412,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="F:\pg\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.1967071" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
@@ -231,7 +493,9 @@
       <workItem from="1486711850025" duration="874000" />
       <workItem from="1486713006483" duration="2639000" />
       <workItem from="1486715830556" duration="1195000" />
-      <workItem from="1486718394906" duration="510000" />
+      <workItem from="1486718394906" duration="3631000" />
+      <workItem from="1486768613815" duration="2192000" />
+      <workItem from="1487316085900" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="3D旋转">
       <created>1486713920558</created>
@@ -258,29 +522,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5218000" />
+    <option name="totallyTimeSpent" value="10674000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301738" sideWeight="0.49707174" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24889217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301738" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301738" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301738" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +565,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -371,6 +643,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -386,14 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
           <folding />
         </state>
       </provider>
